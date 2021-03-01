@@ -16,7 +16,7 @@ app.secret_key = 'hdysn293i9'
 
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'patrick10'
+app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'flasklogin'
 
 mysql = MySQL(app) 
